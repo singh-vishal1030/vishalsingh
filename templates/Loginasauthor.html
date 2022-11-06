@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" class="image">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='Home_style.css')}}">
+   
+<head>
+    
+</head>
+
+<body>
+    <h1 class="loginauthor">Welcome to Author Login</h1>
+
+   
+        <form class="lgauthor" action="/verify_author_email" method="post">
+            <div class="authorlogin">
+            <table>
+                <tr>
+                    <td class="asize">Email</td>
+                    <td><input class="auin" type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td class="asize">Password</td>
+                    <td><input class="auin"  type="text" name="password"></td>
+                </tr>
+          
+                <tr>
+                    <td><input class="auinp" type="submit" value="Submit"></td>
+                    <td><input class="auinp" type="reset" value="Restart"></td>
+                
+                
+                </tr>
+      
+            </table>
+            </div>
+        </form>
+
+</body>
+
+</html>

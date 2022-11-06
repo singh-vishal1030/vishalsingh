@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    /* background: rgb(57, 162, 243); */
+}
+
+.heading {
+    text-align: left;   /* align the text*/
+    padding: 4px; /* inner spacing: 30px; */
+    font-size: 89px; /* adjust the size*/
+    background: padding-box;
+}
+
+.btn {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    color: wheat;
+    border-radius: 30px; /*adjust the shape of button */
+    margin-bottom: 50px;
+    width: max-content;
+    align-self: center;
+}
+
+.anchor {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 43px;
+    color: #70adb1;
+    text-decoration: none; /* to remove the under line */
+}           
+.btn-section{
+    background: url('../static/homep.png') no-repeat center center/cover;
+    padding: 25px;
+    height: 100vh;  /*full view port height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lab{
+    display: inline-block;
+    margin-bottom: 8px;
+    font-size: 22px;
+}
+.yourpost{
+    border: solid; /* to increase boder size */
+    border-radius: 20px;
+    padding: 20px;
+    background: aquamarine;
+}
+.head{
+    padding: 20px;
+    font-size: 75px;
+}
+.posthead{
+    padding: 20px;
+
+}
+.allpost{
+    border: solid; /* to increase boder size */
+    border-radius: 20px;
+    padding: 20px;
+    background: aquamarine;
+}
+.labpost{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 22px;
+}
+.authorhead{
+    padding: 10px;
+    background: aquamarine;
+}
+
+td{
+    font-size: 26px;
+}
+.authordiv{
+    display: flex;
+    justify-content: center;
+}
+
+.anc{
+    text-decoration: none;
+}
+
+.loginauthor{
+    font-size: 35px;
+    font-size: 61px;
+    background: aquamarine;
+
+}
+.authorlogin {
+    background: beige;
+
+    width: 335px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    padding: 186px;
+}
+.authordiv{
+    justify-content: center;
+    position: center;
+    margin: 57px;
+    padding: 17px;
+    font-style: revert;
+    font-size: 30px;
+}
+
+.insert {
+    font-size: 30px;
+}
+.labb{
+    color: white;
+}
+.picture{
+    height: 100vh;
+    background: black;
+}
+.my-button{
+    font-size: 41px;
+    margin: 19px;
+    padding: 10px;
+    color: teal;
+}
+.lgauthor {
+    justify-content: center;
+    position: center;
+    background: beige;
+    height: 100vh;
+    font-style: revert;
+    font-size: 30px;
+}
+
+.image{
+    background: url('../static/image3.png') no-repeat center center/cover;
+    height: 100vh;
+}
+.welaut{
+    font-size: 86px;
+    background: cadetblue;
+    color: aliceblue;
+    background: url(../static/post.png) no-repeat center center/cover;
+    
+
+}
+
+.add{
+    font-size: 30px;
+    background: white;
+    margin: 20px 10px;
+}
+.adpot{
+    padding: 0;
+    margin: 152px;
+    box-sizing: border-box;
+    /* background: rgb(57, 162, 243); */
+
+    
+}
+.postt{
+    background: url(../static/images4.png) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+}
+.adppost{
+    color: tomato;
+    background: black;
+    font-size: 91px;
+}
+.adcolor{
+    color: unset;
+    text-decoration: none;
+}
+.inp{
+    padding: 10px;
+    width: 280px;
+    font-size: 20px;
+    background: unset;
+}
+.bgdpost{
+    background: url(../static/addpost.png) no-repeat center center/cover;
+    height: 100vh;
+}
+.yourp{
+    background: yellowgreen;
+}
+.userhead1{
+    color: unset;
+    background: white;
+    font-size: 72px;
+}
+
+.userhclass{
+    background: wheat;
+}
+
+.usertable1{
+    background: cornsilk;
+    font-size: 42px;
+}
+.userinp{
+    padding: 10px
+}
+
+.userhead{
+    background: powderblue;
+    color: unset;
+    font-size: 84px;
+
+}
+.userbck{
+    background: beige;
+}
+.userem{
+    font-size: 55px;
+}
+.auinp{
+    padding: 16px;
+    font-size: 27px;
+}
+
+.auin{
+        padding: 18px;
+        width: 309px;
+        font-size: 29px;
+}
+.asize{
+    font-size: 53px;
+}
+.userinpt{
+    font-size: 36px;
+}
+.uinpt{
+    font-size: 48px;
+}

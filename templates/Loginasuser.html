@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" class="userbck">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='Home_style.css')}}">
+   
+<head>
+    
+</head>
+
+<body>
+    <h1 class="userhead">Welcome to User Login</h1>
+  <form class="userlog" action="/verify_user_email" method="post">
+        <div class="authorlogin">
+        <table class="usertab">
+            <tr>
+                <td class="userem">Email</td>
+                <td><input class="userinpt" type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td class="userem">Password</td>
+                <td><input class="userinpt" type="text" name="password"></td>
+            </tr>
+            <tr>
+                <td><input class="uinpt" type="submit" value="Submit"></td>
+                <td><input class="uinpt" type="reset" value="Restart"></td>
+                
+            
+            </tr>
+        </table>
+        </div>
+    </form>
+    
+</body>
+
+</html>

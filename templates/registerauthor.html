@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="picture" lang="en">
+
+<head>
+    <title>Author Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='Home_style.css')}}">
+</head>
+<style>
+
+</style>
+
+<body>
+    <h1 class="authorhead">Author Registration Form</h1>
+    <div class="authordiv">
+        <form class="authorform" action="/insertdata" method="post">
+
+            <label class="labb">Email Id</label><br>
+            <input type="email" name="Emailid" class="insert"><br>
+
+
+            <label class="labb">Username</label><br>
+            <input type="text" name="Username" class="insert"><br>
+
+            <label class="labb">Password</label><br>
+            <input type="password" name="password" class="insert"><br>
+
+
+            <label class="labb">City</label><br>
+            <input type="password" name="City" class="insert"><br>
+
+            <label><button class="my-button">Register</button></label>
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>

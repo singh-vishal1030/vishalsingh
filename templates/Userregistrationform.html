@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" class="userhclass">
+<head>
+    <title>User Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='Home_style.css')}}">
+</head>
+<body>
+    <h1 class="userhead1">User Registration Form</h1>
+    <form action="/userinsertdata" class="userform" method="post">
+        <table class="usertable1" border="1px">
+            <tr>
+                <td>Username</td>
+                <td><input class="userinp" type="text" name="Username"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input class="userinp" type="text" name="password"></td>
+            </tr>
+            <tr>
+                <td>Email Id</td>
+                <td><input class="userinp" type="email" name="Emailid"></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><input class="userinp" type="password" name="City"></td>
+            </tr>
+            <tr>
+                <td><button class="my-button">Register</button></td>
+            </tr>
+
+        </table>
+
+    </form>
+</body>
+</html>

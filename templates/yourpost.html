@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" class="yourp">
+<head>
+    <title>Your Post</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='Home_style.css')}}">
+</head>
+<body>
+    <h1 class="head"> YOUR POST</h1>
+ 
+    {%for i in posts%}
+    <div class="yourpost">
+        <div>
+            <label class="lab">Author Name:</label>
+            <label>{{i[0]}}</label>
+        </div>
+        <div>
+            <label class="lab">Title:</label>
+            <label>{{i[1]}}</label>
+        </div>
+        <div>
+            <label class="lab">Blog:</label>
+            <label>{{i[2]}}</label>
+        </div>
+    </div>
+    {%endfor%}
+    
+</body>
+</html>

@@ -244,3 +244,25 @@ td{
 .uinpt{
     font-size: 48px;
 }
+
+.alldiv{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.allbtn{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+
+    
+}
+
+
+
+
+
+
+
+
+
